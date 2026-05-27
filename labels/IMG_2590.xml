@@ -1,0 +1,11 @@
+<labels>
+  <image>IMG_2590.png</image>
+  <signs>
+    <sign><class>Verbot_Stop</class><count>1</count></sign>
+    <sign><class>Warnung_Vorfahrt_gewaehren</class><count>0</count></sign>
+    <sign><class>Gebot</class><count>0</count></sign>
+    <sign><class>Hinweis</class><count>0</count></sign>
+    <sign><class>Vorfahrtsstrasse</class><count>0</count></sign>
+    <sign><class>Ortstafel_Wegweiser</class><count>0</count></sign>
+  </signs>
+</labels>
