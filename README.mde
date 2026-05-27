@@ -1,0 +1,24 @@
+# Computer Vision Bonusprojekt SS2026
+
+Erkennung und Klassifikation von Verkehrsschildern in Bildern.
+Die Pipeline wurde auf die Erkennung von Verkehrsschildern im Vordergrund abgestimmt. Auf die Erkennung von Zusatzschildern wurde explizit verzichtet.
+
+## Ablauf
+1. Bild laden und skalieren
+2. Bilateral Filter
+3. HSV Farbmasken (rot, blau, gelb)
+4. Morphologie (Opening/Closing)
+5. Connected Components -> Bounding Boxes
+6. Klassifikation nach Farbe und Form
+7. Evaluation der Ergebnisse
+
+## Projektstruktur
+- `Main_Pipeline.ipynb` – Hauptnotebook mit Pipeline
+- `data/` – Bilder (Rohdaten, selektiert, output)
+- `labels/` – XML Labels für die Evaluation
+- `Nebenprodukte/` – Verschiedene Tests und Visualisierungen
+
+## Pipeline Nutzung
+Notebook `Main_Pipeline.ipynb` öffnen und `evaluate_images()` ausführen. Ergebnisse werden im Notebook dargestellt. Zusätzlich werden die Plots in `data/out/` exportiert.
+
+**Gruppenmitglieder:** Oliver Gaar, Bastian Götz
