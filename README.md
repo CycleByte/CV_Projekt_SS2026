@@ -6,7 +6,7 @@ Die Pipeline wurde auf die Erkennung von Verkehrsschildern im Vordergrund abgest
 ## Ablauf
 1. Bild laden und skalieren
 2. Bilateral Filter
-3. HSV Farbmasken (rot, blau, gelb)
+3. HSV Farbmasken erstellen (rot, blau, gelb)
 4. Morphologie (Opening/Closing)
 5. Connected Components -> Bounding Boxes
 6. Klassifikation nach Farbe und Form
