@@ -219,3 +219,6 @@ __marimo__/
 
 #MacOS
 .DS_Store
+
+Folder for output files
+data/out/*.png
