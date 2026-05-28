@@ -19,6 +19,7 @@ Die Pipeline wurde auf die Erkennung von Verkehrsschildern im Vordergrund abgest
 - `Nebenprodukte/` – Verschiedene Tests und Visualisierungen
 
 ## Pipeline Nutzung
+Installieren aller benötigten Pakete mit dem Befehl `pip install -r requirements.txt`
 Notebook `Main_Pipeline.ipynb` öffnen und `evaluate_images()` ausführen. Ergebnisse werden im Notebook dargestellt. Zusätzlich werden die Plots in `data/out/` exportiert.
 
 **Gruppenmitglieder:** Oliver Gaar, Bastian Götz
