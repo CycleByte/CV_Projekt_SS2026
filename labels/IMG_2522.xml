@@ -1,5 +1,5 @@
 <labels>
-  <image>IMG_2522.png</image>
+  <image>IMG_2522.jpg</image>
   <signs>
     <sign><class>Verbot_Stop</class><count>2</count></sign>
     <sign><class>Warnung_Vorfahrt</class><count>0</count></sign>
